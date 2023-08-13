@@ -1,0 +1,254 @@
+/* body{
+    background-color: rgba(231, 22, 22, 0.301);
+} */
+/* body {
+    background-image: url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#title{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative; 
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Mont 0-serrat', sans-serif;
+    font-size: 3rem;
+    line-height: 2;  
+    font-weight: 700; 
+    /* margin:   */
+}
+
+.card-text{
+    font-family: 'MonteCarlo', cursive;
+    color: rgb(230, 52, 52);
+    font-size: 2rem;
+}
+
+.sec-head{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: black;
+    padding-top: 0;
+}
+
+.home{
+    padding: 400px 250px 0 250px;
+    font-family: 'Lato', sans-serif;
+    /* color: rgb(255, 146, 146); */
+    color: orange;
+    /* font-size: 1.2rem; */
+}
+
+.container{
+    padding: 70px 50px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.main_heading{
+    padding: 50px 0;
+    color: rgb(221, 41, 41);
+    font-size: 3.5rem;
+}
+
+.rotate{
+    transform: rotate(20deg);
+    width:55%;
+    padding-top: 30px;
+}
+
+nav{
+    padding: 5px;
+    color:black;
+}
+
+.nav-item{
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 1.1rem;
+    color:red;
+}
+
+.nav-link:hover{
+    background-color: rgb(226, 55, 55);
+    /* color: red; */
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+/* Services */
+
+#services{
+    padding: 4% 10% 7% 10%;
+    background-color: cornsilk;
+}
+
+.card{
+    margin: 15px 15px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.card-title{
+    font-family: 'Lobster', cursive;
+}
+
+.services-box{
+    text-align: center;
+    padding-right: 0px;
+    height: 592px;
+    width: 332px;
+    margin-left: 60px;
+}
+
+.icon{
+    margin-bottom: 10px;
+    color:rgb(241, 24, 24);
+}
+.icon:hover{
+    color: rgb(250, 133, 178);
+    }
+
+/* Testimonials Section */
+
+#Gallery{
+    text-align: center;
+    color: #fff;
+    margin: 0px 100px 100px 100px;
+}
+
+.Events{
+    width: 100%;
+    height: 800px;
+}
+
+/* Pricing section */
+
+#about{
+    background-color: rgb(180, 180, 180);
+    padding: 0 100px;
+    position: relative;
+}
+
+.about-para{
+    text-align: center;
+}
+
+.person-name{
+    padding: 20px 5px;
+    font-weight: bold;
+}
+
+
+/* Contact Section */
+
+.width{
+    width: 50%;
+}
+
+#contact{
+    background-color: #002E3F;;
+    color: white;
+    text-align: center;
+    padding: 70px 50px;
+}
+
+input[type=text],[type=email],[type=tel],textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #49b8e0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*   
+  input[type=submit]:hover {
+    background-color: white;
+  } */
+
+.form{
+    padding: 20px 0;
+}
+
+
+/* Footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.dropbtn {
+    background-color: #4c5753;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
